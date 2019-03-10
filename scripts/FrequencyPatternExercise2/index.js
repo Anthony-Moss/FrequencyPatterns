@@ -1,12 +1,11 @@
 // ===========================================
 // Refactored Code O(N) Linear Time Complexity
 // ===========================================
-// Given two arrays write a function to find out if two arrays have the 
-// same frequency of digits
+// Given two arrays write a function to find out if the second array has corresponding squares of the first array values
 // Must be solved with an O(N) Time Complexity or Better
 
 // Create a function that accepts two arrays
-function same(arr1, arr2) {
+function squares(arr1, arr2) {
 
     // We check to see if the length of the arrays are equal to one another
     if (arr1.length !== arr2.length) {
@@ -53,5 +52,5 @@ function same(arr1, arr2) {
 
 }
 
-console.log(same([1,2,3,4,10],[1,4,9,16,100]));
-console.log(same([1,2,3,4,10],[1,2,3,4,10]));
+console.log(squares([1,2,3,4,10],[1,4,9,16,100]));
+console.log(squares([1,2,3,4,10],[1,2,3,4,10]));

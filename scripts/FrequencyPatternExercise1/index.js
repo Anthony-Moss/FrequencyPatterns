@@ -58,6 +58,5 @@ function same(arr1, arr2) {
 }
 
 console.log(same([1,2,3,4],[1,3,4,56]));
-console.log(same([1,2,3,4,5], [1,4,9,16]));
 console.log(same([1,2,3,4,10],[1,2,3,4,10]));
 console.log(same([1,2,3,4,10],[1,4,9,16,100]));
